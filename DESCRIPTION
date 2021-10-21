@@ -1,0 +1,16 @@
+Package: brg
+Title: BRIDGE package
+Version: 0.0.0.9000
+Author: Qing Xia, Jeffrey Thompson, Devin Koestler
+Maintainer: Qing Xia <qingxia0209@gmail.com>
+Description: To circumvent the limitations of existing batch-effect correction methods studies involving the longitudinal collection of high-dimensional 'omic' data, we propose Batch effect coRrectIon of microarray data with Dependent samples usinG an Empirical Bayes approach (BRIDGE). BRIDGE accounts for within-subject dependency expected in longitudinal studies with high-dimensional 'omic' data and involves the estimation and correction of additive batch and multiplicative batch effects when batch effects are confounded with time. After correcting for batch effects with BRIDGE, adjusted data can be used for downstream statistical analyses as if all samples are measured in a single batch. BRIDGE is applicable to different 'omics' platforms, such as microarray gene expression, DNA methylation or neuroimaging studies of neurodevelopment, as long as the transformed data are high-dimension and approximately normal distribution.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9000
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    MASS,MCMCpack

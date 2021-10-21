@@ -2,7 +2,7 @@
 % Please edit documentation in R/BRIDGE_cov.R
 \name{BRIDGE_cov}
 \alias{BRIDGE_cov}
-\title{BRIDGE_cov}
+\title{Batch effect Reduction of mIcroarray data with Dependent samples usinG an Empirical Bayes approach (BRIDGE) - Covariates.}
 \usage{
 BRIDGE_cov(
   infile,
@@ -44,5 +44,5 @@ Function outputs a list including the following:
 }
 }
 \description{
-Batch effect Reduction of mIcroarray data with Dependent samples usinG an Empirical Bayes approach (BRIDGE) - Covariates. To circumvent the limitations of existing batch-effect correction methods studies involving the longitudinal collection of high-dimensional 'omic' data, we propose Batch effect coRrectIon of microarray data with Dependent samples usinG an Empirical Bayes approach (BRIDGE). BRIDGE accounts for within-subject dependency expected in longitudinal studies with high-dimensional 'omic' data and involves the estimation and correction of additive batch and multiplicative batch effects when batch effects are confounded with time. After correcting for batch effects with BRIDGE, adjusted data can be used for downstream statistical analyses as if all samples are measured in a single batch. BRIDGE is applicable to different 'omics' platforms, such as microarray gene expression, DNA methylation or neuroimaging studies of neurodevelopment, as long as the transformed data are high-dimension and approximately normal distribution.
+To circumvent the limitations of existing batch-effect correction methods studies involving the longitudinal collection of high-dimensional 'omic' data, we propose Batch effect coRrectIon of microarray data with Dependent samples usinG an Empirical Bayes approach (BRIDGE). BRIDGE accounts for within-subject dependency expected in longitudinal studies with high-dimensional 'omic' data and involves the estimation and correction of additive batch and multiplicative batch effects when batch effects are confounded with time. After correcting for batch effects with BRIDGE, adjusted data can be used for downstream statistical analyses as if all samples are measured in a single batch. BRIDGE is applicable to different 'omics' platforms, such as microarray gene expression, DNA methylation or neuroimaging studies of neurodevelopment, as long as the transformed data are high-dimension and approximately normal distribution.
 }

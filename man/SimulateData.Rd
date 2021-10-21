@@ -2,7 +2,7 @@
 % Please edit documentation in R/SimulateData.R
 \name{SimulateData}
 \alias{SimulateData}
-\title{Simulate Data}
+\title{This function is to simulate genes expression data for evaluating the performance of BRIDGE}
 \usage{
 SimulateData(
   J,

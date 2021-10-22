@@ -38,7 +38,7 @@ SimulateData_pwr <- function(J, N, G, M, TimeEff0, mu01, sigma01, sigma02, delta
   Geneind <- sample(J, G)
   Ifun <- (1:J) %in% Geneind
   
-  te0 <- rnorm(J, TimeEff0, 0.01)
+  te0 <- rnorm(J, TimeEff0, 0.1)
   # Get mu02j, mu and Sigma to call GeneratingData()
   mu02j <- mu01j  + Ifun * te0
   
